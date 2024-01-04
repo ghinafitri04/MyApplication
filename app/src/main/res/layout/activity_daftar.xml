@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Daftar">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/logo"
+        android:importantForAccessibility="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/formulir_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="@string/formulir_daftar"
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="672dp"
+        android:background="@drawable/button_shape"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="@string/button2_daftar"
+        android:textColor="#FEFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="23dp"
+        android:autofillHints="no"
+        android:background="@drawable/custom_form"
+        android:hint="@string/nama_lengkap"
+        android:inputType="text"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:autofillHints="no"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/custom_form"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text1" />
+
+    <EditText
+        android:id="@+id/edit_text5"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/custom_form"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        tools:targetApi="o"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text1" />
+
+    <EditText
+        android:id="@+id/edit_text3"
+        android:layout_width="303dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="23dp"
+        android:background="@drawable/custom_form"
+        android:hint="@string/username"
+        android:autofillHints="no"
+        android:inputType="text"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text1" />
+
+    <TextView
+        android:id="@+id/textview_allready"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/already_have_an_account"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daftar" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="@string/login"
+        android:textColor="#5FD068"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daftar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

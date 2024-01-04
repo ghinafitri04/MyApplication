@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="selamat_datang">SELAMAT DATANG!</string>
+    <string name="standu">STANDU</string>
+    <string name="apk_standu">Aplikasi Edukasi Stunting untuk \n Para Bunda</string>
+    <string name="button_daftar">Daftar</string>
+    <string name="button">Masuk</string>
+    <string name="textview2">Selamat Datang \n Bunda!</string>
+    <string name="formulir_daftar">Formulir Pendaftaran</string>
+    <string name="button2_daftar">Daftar</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_account">Sudah Memiliki Akun?</string>
+    <string name="login">Masuk</string>
+    <string name="masuk">Masuk</string>
+    <string name="belum_memiliki_akun">Belum memiliki akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="informasi_stunting">informasi</string>
+    <string name="nutrisi_anak">nutrisi</string>
+    <string name="imunisasi_anak">imunisasi</string>
+    <string name="pengaturan_Akun">pengaturan</string>
+    <string name="detail_info1">Cegah Stunting dengan Perbaikan Pola Makan</string>
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="nutrisi">NUTRISI ANAK</string>
+    <string name="back">back</string>
+    <string name="sharing">SHARING STUNTING</string>
+    <string name="diaryku">diaryku</string>
+    <string name="nama_anak">Budi</string>
+    <string name="anakku">ANAKKU</string>
+    <string name="detailNama">Cegah Stunting dengan \n Perbaikan Pola Makan</string>
+    <string name="detailtextSharing">Kondisi tubuh anak yang pendek seringkali dikatakan sebagai faktor keturunan (genetik) dari kedua orang tuanya, sehingga masyarakat banyak hanya menerima tanpa berbuat apa - apa untuk mencegahnya.\n\nPadahal seperti yang kita ketahui, genetika merupakan faktor determinan kesehatan yang paling kecil pengaruhnya dibandingkan dengan faktor perilaku, lingkungan, sosial, ekonomi, budaya, politik, dan pelayanan kesehatan.</string>
+    <string name="detailnutrisi">Alpukat adalah buah yang cocok untuk MPASI karena mengandung banyak nutrisi dan lemak sehat yang baik untuk perkembangan otak, jantung, mata, dan kulit bayi.
+    \nAlpukat memiliki kandungan Vitamin C, A, K, E, B6, folat, kalsium, zat besi, kalium, dan magnesium
+    \n\nBerikut merupakan resep MPASI menggunakan Alpukat yang bisa Moms contoh :
+    \n\nAlpukat Puree
+    \n\nBahan : yang diperlukan:
+    \n1 buah alpukat
+    \n1 sendok minyak zaitu
+    \nASI atau sufor secukupnya
+    \n\nCara membuat:
+    \nLumatkan buah alpukat dengan sendok.
+    \nCampurkan ASI atau sufor secukupnya.
+    \nTambahkan minyak zaitun, sajikan pada bayi.</string>
+
+    //tambah sharing
+    <string name="daftar_sharing">SHARINGKU</string>
+    <string name="tambah_sharing">TAMBAH SHARINGKU</string>
+    <string name="sharing_title">Title</string>
+    <string name="input_judul">Input Judul Sharing</string>
+    <string name="cerita_pengalaman">Ceritakan Pengalaman Anda</string>
+</resources>
